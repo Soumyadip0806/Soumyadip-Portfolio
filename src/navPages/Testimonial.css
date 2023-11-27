@@ -1,0 +1,131 @@
+
+/*
+.prj-card{
+    position: relative;
+    width: -webkit-fill-available;
+    max-width: 300px;
+    height: 400px;
+  background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    
+
+}
+.prj-card>.prj-lines{
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    background: black;
+}
+.prj-card>.prj-lines::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 120px;
+    background:linear-gradient(45deg, #00ccff, #0e1538, #d400d4);
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.prj-card>.prj-lines::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #292929;
+}
+
+.prj-card .prj-imageBox{
+    position: absolute;
+    width: 220px;
+    height: 150px;
+    top:20px;
+    left: 50%;
+    background: #000;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    z-index: 10;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.prj-card .prj-imageBox::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 150px;
+    transform: translate(-50% , -50%);
+    background: linear-gradient(transparent, #ff3c7b, #ff3c7b, #ff3c7b, transparent);
+    animation: animate2 6s linear infinite;
+
+}
+
+@keyframes animate2 {
+    0%{
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+.prj-card .prj-imageBox::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #292929;
+}
+
+
+
+.prj-image{
+    z-index: 1;
+    padding: .2rem;
+    position: absolute;
+    height:100%;
+    width: 100%;
+}
+
+
+
+
+
+.vox{
+    display: flex;
+    justify-content: center;
+}
+
+.vox1{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: rgba(45, 45, 45, 1);
+    overflow: hidden;
+}
+.vox1::before{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(60deg, green,green,transparent,transparent,transparent,green);
+}
+.vox1::after{
+    content: '';
+    position: absolute;
+    inset: .8px;
+    background: rgba(45, 45, 45, 1);
+}
+*/
+

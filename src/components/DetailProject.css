@@ -1,0 +1,88 @@
+
+.detailProject_mainContainer{
+    display: flex;
+    flex-direction: column;
+    height:fit-content;
+    max-width:600px;
+    margin: .5rem auto;
+    background: rgb(227, 249, 255);
+}
+.detailProject_top{
+    flex:1;
+    padding:3rem 2rem;
+    /*background: rgba(134, 236, 251, 0.656);*/
+}
+.blue1{
+    background: rgba(134, 236, 251, 0.656);
+}
+.blue2{
+    background: rgba(191, 252, 227, 0.656);
+}
+.blue3{
+    background: rgba(191, 242, 252, 0.656);
+}
+.detailProject-image{
+    width: 100%;
+    max-height:250px;
+    border-radius: 12px;
+}
+.detailProject_bottom{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+    padding: 3.5rem 2rem 3rem;
+}
+.detailProject_header{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.detailProject_type{
+    background: rgb(209, 226, 232);
+    font-size: 1.5rem;
+    width: auto;
+    margin-right:auto;
+    margin-top:.4rem;
+    padding: .8rem 1.5rem;
+    border-radius: .8rem;
+    
+}
+.detailProject_desc{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+.commonDp{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: .7rem 0;
+}
+.detailProject_data-items{
+    font-weight: normal;
+}
+.dpsti{
+    background: rgb(209, 226, 232);
+    font-size: 1.4rem;
+    width: auto;
+    margin-right:auto;
+    margin-left: .6rem;
+    margin-top:.5rem;
+    padding:.3rem;
+    border-radius: .8rem;
+}
+.detailProject_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.detailProject_buttons>a{
+    color: rgb(0, 0, 0) !important;
+    display: flex;
+    flex-direction: row;
+    gap:.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: .1rem solid rgb(122, 122, 122);
+    padding: .6rem 1rem;
+    margin-top: 1.8rem;
+    border-radius: .3rem;
+}

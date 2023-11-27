@@ -1,0 +1,87 @@
+.bdyProject-maincontainer{
+  display: flex;
+  flex-direction: column;
+  margin:13rem 0 0 0;
+}
+.bdyProject-container{
+  margin: auto;
+  max-width: 1120px;
+  width: 100%;
+  padding: 5rem 0 2rem 0;
+  align-items: center;
+}
+.bodyProject-titleSection{
+  text-align: center;
+}
+
+  .swiper-slide {
+   padding-top: 8rem;
+    max-width: 100%;
+    text-align: -webkit-center;
+  }
+  .swiper-wrapper {
+    align-items: right;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    position:absolute  !important;
+    height: 50px !important    ;
+    width: 50px !important;
+    background: var(--blue-card);
+    z-index: 10 !important;
+    top:.5rem !important;
+    transform: translateY(60%)  !important;
+    color: var(--gray-1) !important;
+    border-radius: 8px;
+    left: 90% !important;
+    
+  }
+  .swiper-button-next {
+    margin-left: 6rem !important;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 2rem !important;
+  }
+  @media only screen and (max-width:1084px) {
+    .swiper-button-prev,
+    .swiper-button-next{
+      left: 84% !important;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .swiper-button-prev,
+    .swiper-button-next{
+      left: 76% !important;
+      height: 35px !important    ;
+      width: 35px !important;
+    }
+    .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 1.6rem !important;
+  }
+
+    .swiper-button-next {
+      margin-left: 4rem !important;
+    }
+    .bdyProject-maincontainer{
+      padding: 10rem 0;
+    }
+  }
+
+  @media only screen and (max-width: 511px) {
+    .swiper-button-prev,
+    .swiper-button-next{
+      left: 72% !important;
+    }
+    .bdyProject-maincontainer{
+      margin:3rem 0 0 0;
+    }
+  }
+
+
+
+
+
+

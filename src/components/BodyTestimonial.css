@@ -1,0 +1,32 @@
+.bodyTestimonial{
+    margin: 13rem auto 0 auto;
+    text-align: center;
+}
+.testimonial-titleSection{
+    margin: auto;
+    padding-bottom:3rem;
+}
+.testimonil-slider{
+    max-width:700px;
+    margin: auto;
+}
+
+.testimonial-containe{
+    height: 1800px;
+}
+.swiper-pagination{
+    position: relative !important; 
+    margin-top: 3rem !important;
+}
+.swiper-pagination-bullet{
+    background-color: rgb(255, 255, 255) !important;
+}
+.swiper-pagination-bullet-dynamic{
+    overflow: visible !important;
+
+}
+.blurtesti{
+    left: 1rem;
+}
+
+

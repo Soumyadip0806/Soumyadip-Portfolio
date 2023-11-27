@@ -1,0 +1,101 @@
+.bodyContact-container{
+    padding: 15rem 5rem;
+    margin: auto;
+    max-width: 1000px;
+}
+.bodyContact-title{
+    background: linear-gradient(135deg, rgba(1,11,46,0.1), rgba(1, 11, 46,.1));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,.2);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(255,255,255,.06);
+    border-radius: 9px;
+    padding: 4rem 0;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+.bdcontactSub,
+.bdyContactTitle{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+.bdyContactTitle{
+    opacity: 0;
+    animation: slideRight .8s ease forwards;
+    justify-content: center;
+    font-size:4rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+.body-contact{
+    width: 200px !important;
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    background:transparent;
+    margin: .5rem;
+    opacity: 0;
+    animation: slideTop .8s ease forwards;
+
+
+}
+.body-contact::before,
+.body-contact::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: .5s !important;
+    background:linear-gradient(155deg, #bbbbbb,hsl(0, 0%, 55%),var(--dark-ryl),var(--dark-ryl),var(--dark-ryl),hsl(0, 0%, 55%), #bbbbbb);
+    inset: -.7px;
+
+}
+.body-contact:hover:before,
+.body-contact:hover:after{
+    background:linear-gradient(155deg, rgb(0, 255, 55),var(--dark-ryl),rgb(0, 255, 55));
+
+}
+
+.body-contact span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--dark-ryl);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    overflow: hidden;
+    color: rgb(207, 207, 207)
+  /*  border: 1px solid rgba(255,255,255,.2);   */
+
+}
+.body-contact span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    height: 100%;
+    width: 100%;
+    background:rgba(255, 255, 255, 0.1);
+    transform: skew(25deg);
+}
+
+@media only screen and (max-width:768px){
+    .bdyContactTitle{
+        font-size:2.7rem;
+        margin-bottom: 2rem;
+    }
+    .bodyContact-container{
+        padding: 10rem 5rem;
+    }
+}
+@media only screen and (max-width:390px){
+    .body-contact{
+        width: 75% !important;
+        margin: auto;
+    }
+}

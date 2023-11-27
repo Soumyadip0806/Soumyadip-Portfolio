@@ -1,0 +1,129 @@
+
+.prjCard{
+  position:relative;
+  justify-self:center;
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: 400px;
+  width: 340px;
+  max-width: 340px;
+  perspective: 1000px;
+  transition: all 0.5s ease-in-out;
+  text-align: left;
+
+}
+.prjCard:hover{
+  background-position: 80% 20%;
+  transform: rotate3d(0.5, 1, 0, 8deg);
+}
+
+.prjCard-top{
+  width: 100%;
+  margin-bottom: 1.5rem;
+  
+}
+.prjCard-image{
+  border-radius: 1.2rem;
+  border: .1rem solid rgb(75, 75, 75);
+  height: 400px;
+  max-height: 400px;
+  width: 100%;
+}
+
+.prjCard-bottom{
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.2rem;
+  background: rgb(6, 14, 50);
+  border: .08rem solid rgb(75, 75, 75);
+  padding: .5rem 1rem;
+  transition: all 0.5s ease-in-out;
+  transform-style: preserve-3d;
+
+}
+.prjCard-bottom:hover{
+  transform: translate3d(5px, 0px, 0px);
+}
+  
+.prjCard-title{
+    color: white;
+    margin-right:auto;
+    margin-bottom: .6rem;
+    font-size: 2.3rem;
+    padding-left:.5rem;
+    font-weight: 700;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+}
+  
+.prjCard-title:hover {
+    transform: translate3d(0px, 0px, 50px);
+}
+
+.prjCard-desc{
+  margin:.7rem 0;
+  font-size: 1.3rem;
+}
+
+.prjCard-button-parent{
+  display: flex;
+  flex-direction: row;
+  margin: .7rem 0 .4rem;
+  padding: 0 .3rem;
+  justify-content: space-between;
+}
+.prjCard-button-parent>a{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  gap: .5rem;
+}
+  .cb-c1,
+  .cb-c2,
+  .cb-c3{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: rgb(212, 214, 214) ;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+  }
+
+
+  .ic{
+    margin-top: .2rem;
+    font-size: 1.2rem;
+  }
+  
+  
+  @media only screen and (max-width: 355px){
+    .prjCard{
+      min-height: 400px;
+      width: 92%;
+
+  }
+}
+  @media only screen and (max-width: 325px){
+
+    .prjCard-image{
+      height: 350px;
+    }
+    .prjCard-title{
+      font-size: 2rem;
+  }
+  }
+  @media only screen and (max-width: 285px){
+
+    .prjCard-image{
+      height: 320px;
+    }
+    .prjCard-title{
+      font-size: 1.8rem;
+    }
+    .prjCard-desc{
+      font-size: 1rem;
+    }
+  }
+  
+
+
+

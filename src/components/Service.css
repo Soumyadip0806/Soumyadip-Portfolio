@@ -1,0 +1,147 @@
+.service{
+    margin-top: 13rem;
+}
+
+.service-titleSection{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    margin: 0 4%;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.service-content{
+
+    height: 200px;
+    border-radius: 4px;
+    width:100%;
+    position: relative;
+    border: 1px solid rgba(255,255,255,.2);
+    background: transparent;
+    padding: 3rem 6rem 2.5rem 2rem;
+}
+.service-icon{
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.service-icon-image{
+    aspect-ratio: 1;
+    width: 3rem;
+    position: relative;
+}
+#red{
+    color: rgb(0, 255, 170);
+}
+.service-title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+.service-button{
+    display: inline-flex;
+    font-size: 1.2rem;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+    color: rgb(168, 168, 168);
+}
+.service-viewMore{
+    font-size: 2rem;
+    padding-left: .5rem;
+    align-items: center;
+    margin-top: .5rem;
+    transition: .3s;
+}
+.service-button:hover{
+   letter-spacing: 00.05rem !important;
+}
+.service-button:hover .service-viewMore{
+   transform: translateX(00.35rem);
+}
+.service-model{
+    visibility: hidden;
+    display: flex;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    z-index: 1;
+    background: transparent;
+    border-radius: 1rem;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    
+}
+.service-model-content{
+    max-width: 500px;
+    margin: 0 2%;
+    color: rgba(0, 0, 0);
+    position:relative;
+    background: rgba(214, 214, 214, .98);
+    padding: 4.5rem 2rem 2.5rem 2.5rem;
+    border-radius: 1rem;
+}
+.service-model-close{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 2.8rem;
+    cursor: pointer;
+}
+.service-model-title{
+    font-size: 2.5rem;
+}
+.service-model-description{
+    font-size: 1.4rem;
+    margin: .8rem 0 1.3rem 0;
+}
+.service-model-allservices{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+.service-model-services{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    padding: .4rem 0;
+}
+.sm-info{
+    padding-top: .3rem;
+}
+
+/* Active Class */
+.active-model{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .service{
+        margin-top: 0;
+    }
+    .service-container{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+    }
+    .service-icon-image{
+        aspect-ratio: 1;
+        width: 2.5rem;
+    }
+}
+@media only screen and (max-width: 340px){
+    .service-container{
+        grid-template-columns: repeat(1,auto);
+    }
+}

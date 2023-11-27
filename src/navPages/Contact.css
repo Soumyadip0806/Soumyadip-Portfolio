@@ -1,0 +1,255 @@
+.contact{
+    padding:7rem 3rem;
+    max-width: 100vw !important;
+}
+.contactMainTitle{
+    text-align: center;
+    margin-bottom:1rem;
+}
+.contactSub{
+    text-align: center;
+}
+
+.contactSection{
+    display: flex;
+    gap: 5rem;
+    margin-top: 8rem;
+    justify-content: space-evenly;
+    position: relative;
+}
+.contactSection::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 50%;
+    background-color: white;
+    left: 50%;
+    top:5%;
+    transform: translate(-50% -50%);
+}
+.contactSection-left{
+    width: 100%;
+    max-width: 500px;
+}
+.contactSection-right{
+    width: 100%;
+    max-width: 500px;
+
+}
+
+.contactInfoItem{
+    padding: 1.5rem;
+    background-color: var(--blue-card);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    box-shadow: 0 0 .01rem white,
+    inset 0 0 .1rem white,
+    0 0 .1rem #3877ff,
+    inset 0 0 .1rem #3877ff,
+    0 0 .5rem #3877ff,
+    inset 0 0 .4rem #3877ff;
+}
+.contactInfoItem-icon{
+    color: var(--blue-card);
+    background-color: var(--blue-bg);
+    height: 4.1rem;
+    width: 4.1rem;
+    padding:.3rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+.contactInfoItem-icon svg{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.contactInfoItem-info{
+    font-size: 1.8rem;
+}
+
+
+
+.form-style{
+    width: 100%;
+}
+.form-group{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.form-style label{
+    font-size: 1.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form-style input,
+.form-style textarea{
+    font-family:'Courier New', Courier, monospace;
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 1.4rem;
+    color: white;
+    background-color: var(--blue-card);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1.2rem;
+    box-shadow: 0 0 .01rem white,
+    inset 0 0 .1rem white,
+    0 0 .1rem #3877ff,
+    inset 0 0 .1rem #3877ff,
+    0 0 .5rem #3877ff,
+    inset 0 0 .4rem #3877ff;
+    
+
+
+}
+.form-style textarea{
+    min-height: 150px;
+    resize: vertical;
+}
+button[type='submit']{
+    font-size: 2rem;
+    display: inline-block;
+    margin-top: 3rem;
+    padding: 1rem;
+    font-size: 1.7rem;
+    border-radius: 5px;
+    border: .01rem solid white;
+    box-shadow: 0 0 .01rem white,
+    inset 0 0 .1rem white,
+    0 0 .5rem #3877ff,
+    inset 0 0 .2rem #3877ff,
+    0 0 1.1rem #3877ff,
+    inset 0 0 1rem #3877ff;
+    cursor: pointer;
+    
+}
+
+.contact-error{
+    margin:5px;
+    color: red;
+    font-size: 1.15rem;
+    font-weight: 100;
+}
+.thankYou{
+    color: rgb(0, 217, 0);
+    font-size: 1.5rem;
+    font-weight:400;
+    margin: 2rem .5rem 2rem 0;
+}
+
+.contactSubmit{
+    transition: .3s;
+    background-color: transparent;
+    color: white;
+}
+.contactSubmit:hover{
+    border: .1rem solid rgb(0, 255, 8);
+    letter-spacing: .3rem !important;
+    color: rgb(4, 255, 0);
+}
+
+.contact-send{
+    height:1.5rem;
+    width: 1.5rem ;
+    margin-left: .5rem;
+}
+
+
+
+
+
+.contact-Bottommap{
+    margin-top: 18rem;
+}
+.google-map{
+    background: url('../assets/images/mapImage.jpg') no-repeat center /cover;
+    min-height: 300px;
+    border-radius: 4px;
+}
+.mapCard-container{
+    position: relative;
+    min-height: 300px;
+
+}
+.map-card{
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+    padding: 2rem;
+    background: var(--blue-card);
+    width: 100%;
+    max-width: 260px;
+    border-radius: 10px;
+}
+.map-card-heading{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.map-card-link{
+    display: inline-block;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    text-decoration: underline !important;
+
+}
+.map-card-info{
+    font-size: 1.5rem;
+}
+
+
+
+
+@media only screen and (max-width:768px){
+    .contact{
+        padding:5rem 3rem 7rem 3rem;
+    }
+    .contactSection{
+        flex-direction: column;
+    }
+    .contactSection::after{
+        display: none;
+    }
+    .contactSection-left,
+    .contactSection-right{
+        width: 100%;
+        max-width: unset;
+    }
+    .contactSection-right{
+        padding-top: 5rem;
+    }
+
+
+
+    .google-map{
+        background-position: 80% center;
+    }
+    
+
+
+
+}
+@media only screen and (max-width:455px){
+    .mapCard-container{
+        margin: 0 5px;
+
+    }
+    .map-card{
+        max-width: none;
+        right: auto;
+        left: auto;
+
+    }
+
+}
+@media only screen and (max-width:350px){
+    .map-card{
+        bottom: 4%;
+    }
+
+}
+

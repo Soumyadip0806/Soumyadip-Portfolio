@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+
+
+.navDiv{
+    position:sticky;
+    z-index: 100;
+    top: -.2rem;
+    width:100%;
+    padding: 2.9rem 0;
+    background: var(--dark-ryl);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 30px var(--dark-ryl),
+    0 -10px 25px var(--dark-ryl);
+}
+.navDiv>.logo{
+    font-family: Agbalumo;
+    font-weight:800;
+    margin-left: 3rem;
+    font-size: 3rem;
+    color: rgb(255, 0, 0);
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+@keyframes slideRight {
+    0% {
+        transform:translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.navDiv>.logo>span{
+    color: aliceblue;
+    font-size: 3.7rem;
+
+}
+.navDiv>ul{
+    max-width: 900px;
+    margin: 0 1.5rem 0 auto;
+    width: 90%;
+    text-align: right;
+}
+.navDiv>ul>li{
+    border-radius: 8px;
+    transition: 0.4s ease background-color;
+    opacity: 0;
+    animation: slideTop .5s forwards;
+    
+}
+
+.navDiv>ul>li>a:hover{
+    background: rgb(255, 255, 255,.2);
+    transition: .3s;
+    letter-spacing: 1.5px;
+}
+.navDiv>ul>li>a>.navicon{
+    display: none;
+}
+.navDiv>ul>li>a{
+    border-radius: 4rem;
+    display: inline-block;
+    /* font-family: 'RobotoMono Regular'; */
+    padding:1rem 2rem;
+    font-size: 2.5rem;
+    color:var(--gray-1);
+    outline: none;
+
+
+}
+
+@keyframes slideTop {
+    0% {
+        transform:translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+.sidebaricon{
+    position: absolute;
+    right: 1.5rem;
+    top: 2.9rem;
+    width: 4rem;
+    cursor: pointer;
+    outline: none;
+    display: none; 
+    color: var(--white);
+    font-size: 3rem;
+}
+.sidebaricon:active{
+    background: transparent;
+}
+.closesidebar{
+    display: none;
+}
+@media only screen and (max-width:805px) {
+    *{
+        padding: 0;
+    }
+    .sidebaricon{
+        display: block;
+    }
+    .sidebaricon>*{
+        pointer-events: none;
+    }
+    .closesidebar{
+        display: block;
+    }
+    .navitems{
+        transition: 0.3 ease transform;
+        background-color: var(--blue-card);
+        opacity: 99%;
+        padding: 2rem;
+        width: 90%;
+        max-width: 300px;
+        border-radius: 12px;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+    .navitems>.closesidebar{
+        display: block;
+        width: 3rem;
+        margin: 0 0 0 auto;
+        cursor: pointer;
+        font-size: 3rem;
+
+    }
+
+    .navitems>.closesidebar>*{
+        pointer-events: none;
+    }
+    .navDiv>ul{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .navDiv>ul>li{
+        display: block;
+        margin-bottom: 1rem;
+    }
+    .navDiv>ul>li>a{
+        width: 90%;
+    }
+
+    .navDiv>ul>li>a>.navicon{
+        display:inline-block;
+        cursor: pointer;
+        font-size: 2rem;
+        padding: 2rem 0 0 1rem;
+
+
+    }
+    .hide-items{
+       /* transform: translateY(calc(-100% -1rem)); */
+       display: none;
+    }
+    .logo{
+        font-size: 2.3rem !important;
+ 
+    }
+    .logo>span{
+        font-size:2.8rem !important;
+ 
+    }
+}
+@media only screen and (max-width:295px){
+    .navDiv>ul>li>a{
+        width: 98%;
+        font-size: 2rem;
+    }
+}

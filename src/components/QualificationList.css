@@ -1,0 +1,100 @@
+.qualification{
+    display: flex;
+    justify-content: center;
+    position: relative;
+ 
+}
+.qualification-box{
+    border-left:.2rem solid var(--blue-bg );
+
+}
+.qualification-content{
+    position: relative;
+    padding-left: 2rem;
+}
+.qualification-content::before{
+    content: '';
+    position: absolute;
+    top: 1rem;
+    left: -.75rem;
+    width: 1.5rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: rgb(122, 121, 121);
+}
+.qualification__content,.q-border{
+    height:auto;
+    width:600px;
+    position: relative;
+    margin-top: 1rem;
+}
+.q-border::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    transition: .5s;
+    background:linear-gradient(163deg, var(--dark-ryl),var(--dark-ryl),var(--dark-ryl),#4d4d4d, #b2b2b2); 
+    inset: -1px;
+    filter: blur(2px);
+    
+}
+
+.qualification__content{
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    background: var(--dark-ryl);
+}
+
+.qualification-year{
+    font-size: 1.2rem;
+    padding-bottom: .5rem;
+}
+.qualification-year i{
+    font-size: 1.2rem;
+    padding: 0 .5rem .5rem 0;
+}
+.qualification-degree{
+    font-size: 1.35rem;
+    padding-bottom: .4rem;
+}
+.qualification-subject{
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
+    
+
+}
+.qualification-university{
+    padding: .2rem .2rem .7rem .2rem;
+    letter-spacing: 1px;
+}
+.qualification-institute{
+    letter-spacing: 1px;
+    padding: .2rem ;
+
+}
+.qualification-cgpa{
+    font-weight: 600;
+}
+
+@media only screen and (max-width:768px){
+    .qualification__content,.q-border{
+        width:350px;
+    }
+}
+@media only screen and (max-width:380px){
+    .qualification__content,.q-border{
+        width:300px;
+    }
+}
+@media only screen and (max-width:350px){
+    .qualification__content,.q-border{
+        width:230px;
+    }
+}
+@media only screen and (max-width:290px){
+    .qualification__content,.q-border{
+        width:200px;
+    }
+}
