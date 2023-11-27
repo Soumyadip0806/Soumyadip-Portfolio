@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c61ea077.css",
+    "main.js": "/static/js/main.130f8039.js",
+    "static/media/about.jpg": "/static/media/about.5a5198d5886da2cf2bbf.jpg",
+    "static/media/bdabout.jpeg": "/static/media/bdabout.fd77fe131e2deb1fffb3.jpeg",
+    "static/media/my-portfolio.jpg": "/static/media/my-portfolio.c1b9e2c6b1c0b09aac2b.jpg",
+    "static/media/examAnxiety.png": "/static/media/examAnxiety.212a0e2d9203db82f647.png",
+    "static/media/body.jpeg": "/static/media/body.ef119f8d10dac3170ec5.jpeg",
+    "static/media/mapImage.jpg": "/static/media/mapImage.4206fa0a5c44901bdab4.jpg",
+    "static/media/tuhinChakraborty.jpg": "/static/media/tuhinChakraborty.5c39222d97bab32eb275.jpg",
+    "static/media/SoumyadipCv.pdf": "/static/media/SoumyadipCv.b60fc568275e08493904.pdf",
+    "static/media/Saswata.jpg": "/static/media/Saswata.8791d9083aa1f6b9af55.jpg",
+    "static/media/e-commerce1.jpg": "/static/media/e-commerce1.2279785707febeec4ce0.jpg",
+    "static/media/diptanuGhosh.jpg": "/static/media/diptanuGhosh.c484e4429fa84825a208.jpg",
+    "static/media/SubhamShit.jpg": "/static/media/SubhamShit.e314e39bbbbf922704be.jpg",
+    "static/media/dl.png": "/static/media/dl.275bd556dd50b2ec6060.png",
+    "static/media/ml.png": "/static/media/ml.af522e3af3353b1c01b5.png",
+    "static/media/ui.png": "/static/media/ui.08bda24db51750a7af02.png",
+    "static/media/sql.png": "/static/media/sql.ca43e7ff4eed6220566a.png",
+    "static/media/da.png": "/static/media/da.8aa1edfa8d1704ba92cb.png",
+    "static/media/ApurbaPal.jpg": "/static/media/ApurbaPal.e983d4a34579340a26ba.jpg",
+    "static/media/ws.png": "/static/media/ws.f9d169e80e84e333a6d1.png",
+    "static/media/node.png": "/static/media/node.71da8e5dd61c2ff164f8.png",
+    "static/media/ai.png": "/static/media/ai.35a77a9bb9588f5340c5.png",
+    "static/media/figma.png": "/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/wd.png": "/static/media/wd.924aefcd21dab990e435.png",
+    "static/media/python.png": "/static/media/python.04ddea1b43164f05b756.png",
+    "index.html": "/index.html",
+    "main.c61ea077.css.map": "/static/css/main.c61ea077.css.map",
+    "main.130f8039.js.map": "/static/js/main.130f8039.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c61ea077.css",
+    "static/js/main.130f8039.js"
+  ]
+}
