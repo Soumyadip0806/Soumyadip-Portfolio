@@ -1,3 +1,53 @@
+
+![soumyadipportfolio](https://github.com/Soumyadip0806/Soumyadip-Portfolio/assets/91328003/1c69f328-5384-46cd-b991-a56564a41ce6)
+
+
+Soumyadip's Portfolio website [React Project]
+
+Live Preview: Open Link
+
+Made with ❤️ by Soumyadip Ghosh
+
+
+# Project Details
+A portfolio for a web designer. We used React js to make this portfolio. A clean design with full responsiveness. You will find this portfolio very professional. Also, we added a smooth scroll in the portfolio which will make the scroll experience really elegant.
+
+This is a beginner-friendly react js project. This project is made for education purposes by me. I learned so many things through this project especially how to work with React Js. React Js is one of the hottest techs for web dev. Through this project, I will have a good understanding of react js. Besides React js I am going to use many other techs.
+
+
+# Project Requirement
+HTML, CSS
+JavaScript
+React Basic (optional)
+
+# What we are going to Use/learn
+React
+React Hooks
+Styled Components
+Swiper js
+React Transition Group
+Smooth Scrollbar
+React Icons
+React Router Dom
+More...
+
+
+# Starter Files
+For the starter files, we created a branch in this repository named starter_files. You need to change the branch in the top corner of the repo then you will get the starter files and now you can clone the repo or download it.
+
+# Getting Started
+The recommended way to get started with the project is to Follow the YouTube tutorial. You will find all the step-by-step guides for free. Or you Can start the project on your own by following the guide below.
+
+After getting the starter files, you need to go to the file directory and run
+
+npm install
+and after that start the live server.
+
+npm start
+want to use the website ?
+This website is made for educational purposes. Also, this will be free to use. Though a proper credit will be appreciated.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
