@@ -4,7 +4,7 @@
 
 Soumyadip's Portfolio website [React Project]
 
-Live Preview: Open Link
+Live Preview: [Open Link](https://soumyadipportfolio.netlify.app/)
 
 Made with ❤️ by Soumyadip Ghosh
 
