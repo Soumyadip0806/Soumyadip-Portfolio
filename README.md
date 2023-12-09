@@ -1,10 +1,13 @@
+Live Preview: [Open Link](https://soumyadipportfolio.netlify.app/)
+
+
 
 ![soumyadipportfolio](https://github.com/Soumyadip0806/Soumyadip-Portfolio/assets/91328003/1c69f328-5384-46cd-b991-a56564a41ce6)
 
 
 Soumyadip's Portfolio website [React Project]
 
-Live Preview: [Open Link](https://soumyadipportfolio.netlify.app/)
+
 
 Made with ❤️ by Soumyadip Ghosh
 
